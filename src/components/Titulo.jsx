@@ -3,7 +3,7 @@ import React from 'react';
 const Titulo = (props) => {
     return (
         <h1>
-           Hola {props.tituloAmigo}!!
+           Hola!!
         </h1>
     );
 };

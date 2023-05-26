@@ -1,12 +1,12 @@
-
+import Titulo from './components/Titulo';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const mjs = '(from changed state)';
 
   return (
     <>
-      
+      <Titulo></Titulo>
     </>
   )
 }
